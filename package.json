@@ -1,5 +1,10 @@
 {
-	"scripts": {
-		"storybook": "start-storybook -p 9001 -c .storybook"
-	}
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.5",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6"
+  }
 }
