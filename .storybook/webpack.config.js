@@ -7,7 +7,11 @@ module.exports = {
         test: /\.scss$/,
         loaders: ["style-loader", "css-loader", "sass-loader"],
         include: path.resolve(__dirname, '../css/')
-      }
+      },
+      {
+        test: /\.md$/,
+        use: "raw-loader"
+      },
     ]
   }
 }
