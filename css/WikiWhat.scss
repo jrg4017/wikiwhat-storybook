@@ -1,7 +1,9 @@
 $golden: #fcbe32;
 
+
 * {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
+  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;*/
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
@@ -31,8 +33,7 @@ form {
   margin: 2em;
 }
 
-.Navbar {
-  border-bottom: 2px solid white;
+.Navbar {     
   font-weight: bold;
   text-align: center;
   background: #A9A9A9;
@@ -60,14 +61,13 @@ form {
       display:inline-block;
       margin: 16px 20px;
     }
-
   }
 }
 
 .Selection{
   #top-title{
     font-family:'Roboto', sans-serif;
-    color: $golden;
+    /*color: $golden;*/
   }
 
   .selectOptions{
@@ -75,9 +75,61 @@ form {
     border:2px solid $golden;
   }
 
-  .selectOptions option{
+  option{
     font-family:'Roboto', sans-serif;
-    size: 20px;
+    font-size: 15px;
+    padding: 5px 6px;
+  }
+
+  option:checked{
+    background: linear-gradient(#A9A9A9, #A9A9A9);
+    color:white;
+  }
+}
+
+.Login{
+    width:50%;
+    height:30%;
+    margin-right:auto;
+    margin-left:auto;
+    padding: 20px 0;
+    border:1px solid black;
+    background-color:white;
+
+    p{
+      font-size:20px;
+      font-weight:bold;
+      margin-bottom:30px;
+    }
+
+    input{
+      width:60%;
+      margin-left:20%;
+      margin-top:10px;
+      vertical-align: middle;
+      text-align:center;
+    }
+
+    button{
+      width:60%;
+      margin-right:auto;
+      margin-left:auto;
+      padding: 5px 0;
+      background-color:$golden;
+    }
+}
+
+.WrongLogin{
+    @extend .Login
+}
+
+.WrongLogin{
+  input{
+    border:2px solid red;
+  }
+
+  #wrong{
+    color:red;
   }
 }
 

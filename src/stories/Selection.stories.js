@@ -9,6 +9,8 @@ import { withKnobs, text, boolean, number, color, select } from '@storybook/addo
 import backgrounds from "@storybook/addon-backgrounds";
 
 import Selection from '../components/test-Selection/Selection';
+import CorrectAnswer from '../components/test-Selection/CorrectAnswer';
+import WrongAnswer from '../components/test-Selection/WrongAnswer';
 
 const styles = {
   textAlign: 'center',
@@ -37,10 +39,12 @@ storiesOf('Selection', module)
 	  </WithNotes>
 	))
 
-	.add('selected answer', () => (
-	  <WithNotes notes={'You have used 3 different blues for the buttons throughout the design, which do you want to use?'}>
-	    <Selection />
-	  </WithNotes>
+	.add('selected correct answer', () => (
+	  <CorrectAnswer />
+	))
+
+	.add('selected wrong answer', () => (
+	  <WrongAnswer />
 	))
 
 	;
