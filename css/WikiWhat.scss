@@ -1,6 +1,12 @@
+$golden: #fcbe32;
+
 * {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
   font-weight: 400;
+}
+
+body{
+  margin: 0;
 }
 
 form {
@@ -24,3 +30,55 @@ form {
   padding: 1em;
   margin: 2em;
 }
+
+.Navbar {
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  text-align: center;
+  background: #A9A9A9;
+  color: $golden;
+  margin: 0;
+  padding: 2px;
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0; 
+
+  h1{
+    font-family: 'Bitter', serif;
+    display:inline-block;
+    float:left;
+    margin: 0 5%;
+    padding-top:5px;
+  }
+
+  .inner{
+    display:inline-block;
+    
+    p{
+      font-family: 'Roboto', sans-serif;
+      display:inline-block;
+      margin: 16px 20px;
+    }
+
+  }
+}
+
+.Selection{
+  #top-title{
+    font-family:'Roboto', sans-serif;
+    color: $golden;
+  }
+
+  .selectOptions{
+    width: 700px;
+    border:2px solid $golden;
+  }
+
+  .selectOptions option{
+    font-family:'Roboto', sans-serif;
+    size: 20px;
+  }
+}
+
+

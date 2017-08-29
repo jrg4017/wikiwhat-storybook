@@ -4,10 +4,11 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.6",
-    "@storybook/addon-info": "^3.2.7",
+    "@storybook/addon-info": "^3.2.9",
     "@storybook/addon-knobs": "^3.2.8",
     "@storybook/addon-links": "^3.2.6",
     "@storybook/addon-notes": "^3.2.7",
+    "@storybook/react": "^3.2.8",
     "css-loader": "^0.28.5",
     "node-sass": "^4.5.3",
     "raw-loader": "^0.5.1",
@@ -15,7 +16,10 @@
     "storybook-readme": "^3.0.6"
   },
   "dependencies": {
+    "@storybook/addon-backgrounds": "^3.0.0",
     "bootstrap": "^3.3.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "react-syntax-highlight": "^15.3.1"
   }
 }
