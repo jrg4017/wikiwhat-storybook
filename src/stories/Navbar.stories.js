@@ -10,9 +10,8 @@ import backgrounds from "@storybook/addon-backgrounds";
 
 import Navbar from '../components/test-Navbar/Navbar';
 import NavbarReadMe from '../components/test-Navbar/README.md';
-/**
-  * const for declarators - wrap entire content with formatting etc
-  */
+
+
 const styles = {
   textAlign: 'center',
 };
@@ -22,9 +21,6 @@ const CenterDecorator = (storyFn) => (
   </div>
 );
 
-/**
-  * stories displaying different features
-  */
 storiesOf('Navbar', module)
   	.addDecorator(CenterDecorator)
     .addDecorator(backgrounds([

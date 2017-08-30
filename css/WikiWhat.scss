@@ -85,6 +85,31 @@ form {
     background: linear-gradient(#A9A9A9, #A9A9A9);
     color:white;
   }
+
+  .resultBox{
+    margin-top:20px;
+  }
+
+  .glyphicon{
+    font-size: 150px;
+    display:inline-block;
+    margin-right:10%;
+  }
+
+  .result{
+    display:inline-block;
+    font-size:20px;
+
+    button{
+      color:white;
+      background-color:$golden;
+      border:none;
+      width:200px;
+      margin-top:15px;
+    }
+
+  }
+
 }
 
 .Login{
@@ -125,11 +150,21 @@ form {
 
 .WrongLogin{
   input{
-    border:2px solid red;
+    border:1px solid red;
   }
 
   #wrong{
     color:red;
+  }
+}
+
+.CreateAccount{
+    @extend .Login
+}
+
+.CreateAccount{
+  input{
+    border:1px solid #A9A9A9;
   }
 }
 
