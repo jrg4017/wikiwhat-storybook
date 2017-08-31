@@ -1,5 +1,5 @@
 import { configure } from '@storybook/react';
-import '../css/styles.scss';
+import '../css/App.scss';
 
 const req = require.context('../src/stories', true, /\.stories\.js$/)
 

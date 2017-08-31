@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@storybook/addon-backgrounds": "^3.0.0",
+    "bootstrap-sass": "^3.3.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-syntax-highlight": "^15.3.1"

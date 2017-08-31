@@ -39,7 +39,7 @@ storiesOf('Test Addons', module)
 
   // Action Addon
   .add('Action Logger', () => (
-    <button className="btn"
+    <button className='btn'
       onClick={action('clicked')}>Click to see Action Logger Populate
     </button>
   ))
@@ -73,7 +73,7 @@ storiesOf('Test Addons', module)
         <p>{content}</p>
 
         {/* COLOR */}
-        <button className="btn" style={{backgroundColor: btnColor}}>
+        <button className='btn' style={{backgroundColor: btnColor}}>
           Color: {btnColor}
         </button>
 
@@ -91,7 +91,7 @@ storiesOf('Test Addons', module)
     inline: false, // Displays info inline vs click button to view
     text: 'This form shows information about what is being shown',
   })(() =>
-    <TestForm title="Please tell us your name"/>
+    <TestForm title='Please tell us your name'/>
     ))
     .add('Documentation Inline', withInfo({
       header: false, // Toggles display of header with component name and description
@@ -99,10 +99,10 @@ storiesOf('Test Addons', module)
       source: false, // Displays the source of story Component
       text: 'This form shows information about what is being shown',
     })(() =>
-        <TestForm title="Please tell us your name"/>
+        <TestForm title='Please tell us your name'/>
       ))
 
   // README Addon
   .add('Readme file Documentation', withReadme(ButtonReadme,
-    () => <TestButton title="Hello Button"/>))
+    () => <TestButton title='Hello Button'/>))
   ;

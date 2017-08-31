@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 class TestButton extends React.Component {
   render() {
     return (
-      <button type="submit" className="btn" style={{backgroundColor: 'blue' }}>
+      <button type='submit' className='btn btn-warning' style={{backgroundColor: 'blue' }}>
         {this.props.title}
       </button>
     );
