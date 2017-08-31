@@ -12,6 +12,11 @@ module.exports = {
         test: /\.md$/,
         use: "raw-loader"
       },
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url-loader?limit=8192'
+      },
     ]
   }
 }
+
