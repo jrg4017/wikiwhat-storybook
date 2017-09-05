@@ -12,6 +12,7 @@ storiesOf('Login', module)
     { name: 'light gray', value: '#e7e7e7' },
     { name: 'dark gray', value: '#A9A9A9' }
   ]))
+  
   .add('Default Login', () => (
   <WithNotes notes={'This will be the first thing that pops up when user goes onto application'}>
   	<Login />
