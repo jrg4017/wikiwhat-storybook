@@ -53,6 +53,5 @@ storiesOf('UI testing', module)
           </div>
         </form>
       </div>
-
     );
   }))

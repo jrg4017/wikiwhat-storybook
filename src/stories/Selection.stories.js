@@ -14,11 +14,11 @@ const correctArticle = {
 };
 
 storiesOf('Selection', module)
-    // .addDecorator(backgrounds([
-    //   { name: 'white', value: '#FFFFFF', default: true },
-    //   { name: 'light gray', value: '#e7e7e7' },
-    //   { name: 'dark gray', value: '#A9A9A9' }
-    // ]))
+    .addDecorator(backgrounds([
+      { name: 'white', value: '#FFFFFF', default: true },
+      { name: 'light gray', value: '#e7e7e7' },
+      { name: 'dark gray', value: '#A9A9A9' }
+    ]))
 	.add('default selection', () => (
 	  <WithNotes notes={'You have used 3 different blues for the buttons throughout the design, which do you want to use?'}>
 	    <Selection />
