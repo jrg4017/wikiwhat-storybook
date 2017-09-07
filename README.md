@@ -18,4 +18,6 @@ Addons:
 
 To demo these addons, go to "Test Addons" set. 
 
-Read more about [Storybook](https://storybook.js.org/basics/guide-react/)
+We see this as a great collaboration tool for between developers and those who may not be experienced with code. The addons (especially the knob addon) allow anyone to be able to see and point out details they may want to change regardless of coding experience. 
+
+Read more information on setting up Storybook and its addons go to their website: [https://storybook.js.org/](https://storybook.js.org/basics/guide-react/)
