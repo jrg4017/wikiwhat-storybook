@@ -1,17 +1,20 @@
 # WikiWhat Project - Storybook
 
-Set up:
-```
-npm install
-npm run storybook
-```
-Navigate to [http://localhost:9001](http://localhost:9001)
+## About
 
 This is @aw2802 and I's research  project to explore the use cases for Storybook Component Library and graphql for our current workplace, Publicis Sapient.
 
 This half of the project implements Storybook for our demo application, WikiWhat. With Storybook, we were able to build the components of our app independently, toggle between the different states, and index them.
 
 The other half of the project is hosted on @aw2802's github: [WikiWhat graphql project](https://github.com/aw2802/graphql-server)
+
+## Set up:
+```
+npm install
+npm run storybook
+```
+Navigate to [http://localhost:9001](http://localhost:9001)
+
 
 ## Addons:
 
